@@ -1,0 +1,38 @@
+"0","from pins import board_folder"
+"2","Traceback (most recent call last):
+  File ""<string>"", line 1, in <module>
+  File ""[90m]8;line = 119;file://C:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.pyC:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.py]8;;[39m"", line 119, in _find_and_load_hook
+    return _run_hook(name, _hook)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File ""[90m]8;line = 93;file://C:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.pyC:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.py]8;;[39m"", line 93, in _run_hook
+    module = hook()
+             ^^^^^^
+  File ""[90m]8;line = 117;file://C:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.pyC:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.py]8;;[39m"", line 117, in _hook
+    return _find_and_load(name, import_)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pins'
+"
+"0","from vetiver import vetiver_pin_write"
+"2","Traceback (most recent call last):
+  File ""<string>"", line 1, in <module>
+  File ""[90m]8;line = 119;file://C:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.pyC:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.py]8;;[39m"", line 119, in _find_and_load_hook
+    return _run_hook(name, _hook)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File ""[90m]8;line = 93;file://C:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.pyC:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.py]8;;[39m"", line 93, in _run_hook
+    module = hook()
+             ^^^^^^
+  File ""[90m]8;line = 117;file://C:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.pyC:\Users\C25Joseph.Reed\AppData\Local\R\cache\R\renv\cache\v5\R-4.3\x86_64-w64-mingw32\reticulate\1.35.0\90be16b53b955990db4aa355c03d85eb\reticulate\python\rpytools\loader.py]8;;[39m"", line 117, in _hook
+    return _find_and_load(name, import_)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'vetiver'
+"
+"0","b = board_folder('data/model', allow_pickle_read=True)"
+"2","Traceback (most recent call last):
+  File ""<string>"", line 1, in <module>
+NameError: name 'board_folder' is not defined
+"
+"0","p = vetiver_pin_write(b, v, versioned=True )"
+"2","Traceback (most recent call last):
+  File ""<string>"", line 1, in <module>
+NameError: name 'vetiver_pin_write' is not defined
+"
