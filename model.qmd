@@ -43,8 +43,8 @@ print(f"Coefficients {model.coef_}")
 ```
 
 ```{python}
-from vetiver import VetiverModel
-v = VetiverModel(model, model_name='penguin_model', prototype_data=X)
+#from vetiver import VetiverModel
+#v = VetiverModel(model, model_name='penguin_model', prototype_data=X)
 ```
 
 ```{python}
@@ -55,19 +55,19 @@ p = vetiver_pin_write(b, v, versioned=True )
 ```
 
 ```{python}
-from pins import board_folder
-from vetiver import vetiver_pin_write
+#from pins import board_folder
+#from vetiver import vetiver_pin_write
 
-model_board = board_folder(
-  "data/model", 
-  allow_pickle_read = True
-)
-vetiver_pin_write(model_board, v)
+#model_board = board_folder(
+  #"data/model", 
+  #allow_pickle_read = True
+#)
+#vetiver_pin_write(model_board, v)
 ```
 
 ```{python}
-from vetiver import VetiverAPI
-app = VetiverAPI(v, check_prototype = True)
+#from vetiver import VetiverAPI
+#app = VetiverAPI(v, check_prototype = True)
 ```
 
 ```{python}
