@@ -8,10 +8,12 @@ format:
 ## Penguin Size and Mass by Sex and Species
 
 ```{r}
-library(palmerpenguins)
-library(dplyr)
-library(dbplyr)
-library(ggplot2)
+suppressPackageStartupMessages({
+  library(palmerpenguins)
+  library(dplyr)
+  library(dbplyr)
+  library(ggplot2)
+})
 
 #con <- DBI::dbConnect(
   #duckdb::duckdb(), 
