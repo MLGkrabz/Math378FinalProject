@@ -48,10 +48,10 @@ print(f"Coefficients {model.coef_}")
 ```
 
 ```{python}
-from pins import board_folder
-from vetiver import vetiver_pin_write
-b = board_folder('data/model', allow_pickle_read=True)
-p = vetiver_pin_write(b, v, versioned=True )
+#from pins import board_folder
+#from vetiver import vetiver_pin_write
+#b = board_folder('data/model', allow_pickle_read=True)
+#p = vetiver_pin_write(b, v, versioned=True )
 ```
 
 ```{python}
