@@ -30,6 +30,9 @@ jobs:
         env:
           RENV_CONFIG_REPOS_OVERRIDE: https://packagemanager.rstudio.com/all/latest
 
+      - name: Restore renv environment
+        run: Rscript -e 'if(!renv::status()$is_synchronized) renv::restore()'
+
       - name: Install Python and Dependencies
         uses: actions/setup-python@v5
         with:
