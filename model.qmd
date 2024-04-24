@@ -17,10 +17,10 @@ from sklearn import preprocessing
 ## Get Data
 
 ```{python}
-con = duckdb.connect('my-db.duckdb')
-df = con.execute("SELECT * FROM penguins").fetchdf().dropna()
+#con = duckdb.connect('my-db.duckdb')
+#df = con.execute("SELECT * FROM penguins").fetchdf().dropna()
 
-df.head(3)
+#df.head(3)
 ```
 
 ## Define Model and Fit
@@ -76,5 +76,5 @@ app = VetiverAPI(v, check_prototype = True)
 #con = duckdb.connect('my-db.duckdb')
 #df = penguins.load_penguins()
 #con.execute('CREATE TABLE penguins AS SELECT * FROM df')
-con.close()
+#con.close()
 ```

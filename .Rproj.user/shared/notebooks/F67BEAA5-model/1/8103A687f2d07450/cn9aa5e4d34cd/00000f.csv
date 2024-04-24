@@ -1,5 +1,0 @@
-"0","library(reticulate)"
-"0","use_virtualenv("".venv"", required = TRUE)"
-"2","Error in use_virtualenv("".venv"", required = TRUE) : 
-  Directory ~/.virtualenvs/.venv is not a Python virtualenv
-"

@@ -13,11 +13,11 @@ library(dplyr)
 library(dbplyr)
 library(ggplot2)
 
-con <- DBI::dbConnect(
-  duckdb::duckdb(), 
-  dbdir = "my-db.duckdb"
-  )
-df <- dplyr::tbl(con, "penguins")
+#con <- DBI::dbConnect(
+  #duckdb::duckdb(), 
+  #dbdir = "my-db.duckdb"
+  #)
+#df <- dplyr::tbl(con, "penguins")
 ```
 
 ```{r}
@@ -45,5 +45,5 @@ df %>%
 #library(duckdb)
 #con <- DBI::dbConnect(duckdb::duckdb(), dbdir = "my-db.duckdb")
 #DBI::dbWriteTable(con, "penguins", palmerpenguins::penguins)
-DBI::dbDisconnect(con, shutdown = TRUE)
+#DBI::dbDisconnect(con, shutdown = TRUE)
 ```
