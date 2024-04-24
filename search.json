@@ -53,7 +53,7 @@
     "href": "eda.html#penguin-size-vs-mass-by-species",
     "title": "Penguins EDA",
     "section": "Penguin Size vs Mass by Species",
-    "text": "Penguin Size vs Mass by Species\n\n\nCode\nsuppressWarnings({\n  df %&gt;%\n    ggplot(aes(x = bill_length_mm, y = body_mass_g, color = species)) +\n    geom_point() + \n    geom_smooth(method = \"lm\")\n})\n\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\nWarning: Removed 2 rows containing non-finite outside the scale range\n(`stat_smooth()`).\n\n\nWarning: Removed 2 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\n\n\n\n\n\n\n\n\n\nCode\n#library(DBI)\n#library(duckdb)\n#con &lt;- DBI::dbConnect(duckdb::duckdb(), dbdir = \"my-db.duckdb\")\n#DBI::dbWriteTable(con, \"penguins\", palmerpenguins::penguins)\n#DBI::dbDisconnect(con, shutdown = TRUE)"
+    "text": "Penguin Size vs Mass by Species\n\n\nCode\ndf %&gt;%\n  filter(!is.na(bill_length_mm), !is.na(body_mass_g), \n         is.finite(bill_length_mm), is.finite(body_mass_g)) %&gt;%\n  ggplot(aes(x = bill_length_mm, y = body_mass_g, color = species)) +\n  geom_point() + \n  geom_smooth(method = \"lm\")\n\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\n\nCode\n#library(DBI)\n#library(duckdb)\n#con &lt;- DBI::dbConnect(duckdb::duckdb(), dbdir = \"my-db.duckdb\")\n#DBI::dbWriteTable(con, \"penguins\", palmerpenguins::penguins)\n#DBI::dbDisconnect(con, shutdown = TRUE)"
   },
   {
     "objectID": "index.html",
