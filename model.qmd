@@ -19,8 +19,9 @@ from sklearn import preprocessing
 ```{python}
 #con = duckdb.connect('my-db.duckdb')
 #df = con.execute("SELECT * FROM penguins").fetchdf().dropna()
+df = penguins.load_penguins().dropna()
 
-#df.head(3)
+df.head(3)
 ```
 
 ## Define Model and Fit

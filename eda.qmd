@@ -18,6 +18,7 @@ library(ggplot2)
   #dbdir = "my-db.duckdb"
   #)
 #df <- dplyr::tbl(con, "penguins")
+df <- palmerpenguins::penguins
 ```
 
 ```{r}
