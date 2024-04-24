@@ -35,12 +35,12 @@ df %>%
 ## Penguin Size vs Mass by Species
 
 ```{r}
-suppressWarnings({
-  df %>%
-    ggplot(aes(x = bill_length_mm, y = body_mass_g, color = species)) +
-    geom_point() + 
-    geom_smooth(method = "lm")
-})
+df %>%
+  filter(!is.na(bill_length_mm), !is.na(body_mass_g), 
+         is.finite(bill_length_mm), is.finite(body_mass_g)) %>%
+  ggplot(aes(x = bill_length_mm, y = body_mass_g, color = species)) +
+  geom_point() + 
+  geom_smooth(method = "lm")
 ```
 
 ```{r}
