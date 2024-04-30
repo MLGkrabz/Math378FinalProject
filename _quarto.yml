@@ -12,4 +12,10 @@ website:
       - model.qmd
 
 format:
-  html
+  html:
+    css: styles.css
+    includes:
+      in-header: header.html
+    toc: true
+
+editor: visual
