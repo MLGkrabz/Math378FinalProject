@@ -10,11 +10,15 @@ website:
       - about.qmd
       - eda.qmd
       - model.qmd
+
 format:
   html:
     theme: cosmo
     css: styles.css
+    includes:
+      in-header: header.html
     toc: true
 
 editor: visual
+
 

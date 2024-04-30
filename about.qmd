@@ -2,8 +2,4 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+This site is a project assigned in order to test my ability to employ simple statistical models, and primarily my ability to practice independent learning. I have never made a quarto site such as this or used hardly any of the code that went into building this site. It may not look great, but it's a big first step!
