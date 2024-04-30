@@ -12,13 +12,4 @@ website:
       - model.qmd
 
 format:
-  html:
-    theme: cosmo
-    css: styles.css
-    includes:
-      in-header: header.html
-    toc: true
-
-editor: visual
-
-
+  html
