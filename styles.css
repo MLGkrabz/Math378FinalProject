@@ -1,1 +1,109 @@
-/* css styles */
+/* General body styles */
+body {
+    background-color: #ffccff; /* Light pink */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun and informal font */
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #33cc33; /* Bright green */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ff6600; /* Bright orange */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Styling headings for a more dynamic look */
+h1, h2, h3, h4 {
+    color: #0000ff; /* Bright blue */
+    text-shadow: 2px 2px #ffa500; /* Orange shadow for depth */
+}
+
+/* Link styles with a cool hover effect */
+a {
+    color: #cc00cc; /* Vivid purple */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    color: #ff0000; /* Bright red when hovered */
+    text-decoration: underline; /* Underline on hover */
+    font-size: 120%; /* Enlarge text on hover */
+}
+
+/* Table styling for a fun look */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #ffa500; /* Orange border */
+    padding: 8px;
+    text-align: left;
+    background-color: #ffff99; /* Light yellow */
+}
+
+/* Figure and figcaption styles */
+figure {
+    margin: 20px auto; /* Centering the figure */
+    width: 90%;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+    color: #ff00ff;
+}
+
+/* Button styles for interactivity */
+button {
+    background-color: #0000ff; /* Bright blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    box-shadow: 0 4px #ffa500; /* Orange shadow effect */
+}
+
+button:hover {
+    background-color: #ff0000; /* Bright red */
+    box-shadow: 0 4px #cccc00; /* Dark yellow shadow on hover */
+}
+
+/* Form input styling */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #0000ff; /* Bright blue */
+    border-radius: 8px; /* Rounded corners for input fields */
+    box-sizing: border-box;
+    background-color: #ccffff; /* Light cyan */
+}
+
+/* Enhance the overall fun and engaging vibe */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+h1 {
+    animation: spin 10s linear infinite;
+}
+
