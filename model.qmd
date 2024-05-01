@@ -3,6 +3,9 @@ title: "Model"
 format:
   html:
     code-fold: true
+    includes:
+      in-header: |
+        <link rel="stylesheet" href="styles.css">
 ---
 
 ```{python}
