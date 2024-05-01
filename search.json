@@ -60,6 +60,6 @@
     "href": "index.html",
     "title": "Math378FinalProject",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "![How I felt when I first reached Chapter 5](images/crying.png)\n![Once the indomitable human spirit kicked in](images/holy.jpg)\n![My final wind](images/angry.jpg)"
   }
 ]
