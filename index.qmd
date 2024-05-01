@@ -7,10 +7,8 @@ format:
         <link rel="stylesheet" href="path/to/your/styles.css">
 ---
 
-This is a Quarto website.
+\![How I felt when I first reached Chapter 5\](images/crying.png)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+\![Once the indomitable human spirit kicked in\](images/holy.jpg)
 
-```{r}
-1 + 1
-```
+\![My final wind\](images/angry.jpg)
