@@ -12,3 +12,5 @@ format:
 \![Once the indomitable human spirit kicked in\](images/holy.jpg)
 
 \![My final wind\](images/angry.jpg)
+
+\![My advice to any cadets distraught over this project in the future](images/sysophus.jpg)
