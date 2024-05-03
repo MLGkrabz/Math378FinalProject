@@ -14,3 +14,5 @@ format:
 ![My final wind](images/angry.jpg){fig-align="center"}
 
 ![My advice to any cadets distraught over this project in the future](images/sysophus.jpg){fig-align="center"}
+
+![In the vast silence of this frozen expanse, even the playful chatter of penguins whispers the profound truth: that in the immensity of the universe, our worries are as fleeting as snowflakes in the sea. Amid the pristine stillness of Antarctica, where penguins dance and the snow lies untouched, I see that striving for perfection is like pushing against the infinite—each commit to GitHub, a step towards understanding, yet a reminder of how much remains beyond our grasp.](images/Nirvana.webp){fig-align="center"}
